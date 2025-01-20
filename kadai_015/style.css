@@ -1,6 +1,17 @@
 html {
     text-align: center;
+    font-size: 125%
 }
+.google-fonts {
+    // <uniquifier>: Use a unique and descriptive class name
+
+    .josefin-sans-<uniquifier> {
+      font-family: "Josefin Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
     body {
     font-family: "Arial", "Meiryo", sans-serif;
 }
@@ -9,7 +20,7 @@ html {
     }
     h1 { 
         .google-fonts {
-        font-family: "Josefin Sans", sans-serif;
+        font-family:  sans-serif;
         font-optical-sizing: auto;
         font-weight: weight;
         font-style: normal;
